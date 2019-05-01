@@ -12,5 +12,7 @@ def input_to_index(value)
 end
 
 def move(array, index, value = "X")
+  updated_board = array
+  
   
 end
