@@ -13,3 +13,8 @@ end
 
 def move(array, index, value)
 end
+
+board = [" ", " ", " "]
+def update_array_at_with(array, index, value)
+  array[index] = value
+end
