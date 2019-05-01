@@ -15,4 +15,10 @@ def move(array, index, value = "X")
   updated_board = array.dup
   
   updated_board[index] = value
+  
+  updated_board
+  
+  array[index] = value
+  
+  array
 end
