@@ -16,3 +16,5 @@ def move(board, index, value = "X")
   
   board
 end
+
+move([], 0, x)
